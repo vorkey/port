@@ -17,12 +17,12 @@
 
 	:root[data-theme="dark"] {
 		color-scheme: dark;
-		--theme-bg: 210deg 6% 12%;
-		--theme-link: 330deg 49% 67%;
+		--theme-bg: 240deg 21% 15%;
+		--theme-link: 189deg 71% 73%;
 		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 45%;
+		--theme-accent: 115deg 54% 76%;
 		--theme-accent-2: 0deg 0% 93%;
-		--theme-quote: 102deg 100% 86%;
+		--theme-quote: 343deg 81% 75%;
 	}
 
 	html {
@@ -30,6 +30,6 @@
 	}
 
 	body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor;
 	}
 }
