@@ -17,5 +17,8 @@
 	],
 	"[astro]": {
 		"editor.defaultFormatter": "astro-build.astro-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
 	}
 }

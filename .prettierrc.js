@@ -2,9 +2,9 @@
 module.exports = {
 	printWidth: 100,
 	semi: true,
-	singleQuote: false,
+	singleQuote: true,
 	tabWidth: 2,
-	useTabs: true,
+	useTabs: false,
 	plugins: ["prettier-plugin-astro", "prettier-plugin-tailwindcss" /* Must come last */],
 	overrides: [
 		{
