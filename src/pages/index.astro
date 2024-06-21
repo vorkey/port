@@ -54,44 +54,44 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 
 <PageLayout meta={{ title: 'Home' }}>
   <section>
-    <h1 class='title mb-6'>Welcome</h1>
-    <p class='mb-4'>
+    <h1 class="title mb-6">Welcome</h1>
+    <p class="mb-4">
       Hello, my name is Ambadaya Gaman, I am from Tamiang Layang, Central Kalimantan, Indonesia.
       Currently living in Banjarmasin, South Kalimantan, Indonesia.
     </p>
-    <p class='mb-4'>
+    <p class="mb-4">
       I graduated from SMKN 2 Tamiang Layang in 2024 as Computer and Network Engineering student.
       Currently studying at Politeknik Negeri Banjarmasin in Electronics Engineering.
     </p>
     <SocialList />
   </section>
-  <section aria-label='Blog post list' class='mt-16'>
-    <h2 class='title mb-4 text-xl'>Posts</h2>
-    <ul class='space-y-4'>
+  <section aria-label="Blog post list" class="mt-16">
+    <h2 class="title mb-4 text-xl">Posts</h2>
+    <ul class="space-y-4">
       {
         allPostsByDate.map((p) => (
-          <li class='grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2'>
+          <li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
             <PostPreview post={p} />
           </li>
         ))
       }
     </ul>
   </section>
-  <section class='mt-16'>
-    <h2 class='title mb-4 text-xl'>Technologies</h2>
-    <dl class='space-y-4'>
+  <section class="mt-16">
+    <h2 class="title mb-4 text-xl">Technologies</h2>
+    <dl class="space-y-4">
       {
         cactusTech.map(({ desc, href, title }) => (
-          <div class='flex flex-col gap-2 sm:flex-row'>
+          <div class="flex flex-col gap-2 sm:flex-row">
             <dt>
-              <span class='flex'>
-                <a class='cactus-link' href={href} rel='noopener noreferrer' target='_blank'>
+              <span class="flex">
+                <a class="cactus-link" href={href} rel="noopener noreferrer" target="_blank">
                   {title}
                 </a>
                 :
               </span>
             </dt>
-            <dd>{desc}</dd>
+            <dd class="max-sm:mb-2">{desc}</dd>
           </div>
         ))
       }

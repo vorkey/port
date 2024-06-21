@@ -1,7 +1,5 @@
 ---
-import aboutImg from '@/assets/about-astro.png';
 import PageLayout from '@/layouts/Base.astro';
-import { Image } from 'astro:assets';
 
 const meta = {
   description: "I'm a starter theme for Astro.build",
@@ -10,38 +8,34 @@ const meta = {
 ---
 
 <PageLayout meta={meta}>
-  <div class='space-y-6'>
-    <h1 class='title'>About</h1>
+  <div class="space-y-6">
+    <h1 class="title">About</h1>
     <p>
-      Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-      website.
+      This is just another personal website for showing projects or something, there is also blog
+      here though I don't know what to write.
     </p>
-    <div class='flex justify-center'>
-      <Image
-        alt="A cartoon cactus looking at the 'Astro.build' logo"
-        fetchpriority='high'
-        loading='eager'
-        src={aboutImg}
-      />
-    </div>
-    <p>Here are my some of my awesome built in features:</p>
-    <ul class='list-inside list-disc'>
-      <li>I'm ultra fast as I'm a static site</li>
-      <li>I'm fully responsive</li>
-      <li>I come with a light and dark mode</li>
-      <li>I'm easy to customise and add additional content</li>
-      <li>I have Tailwind CSS styling</li>
-      <li>Shiki code syntax highlighting</li>
-      <li>Satori for auto generating OG images for blog posts</li>
-    </ul>
     <p>
-      Clone or fork my <a
-        aria-label='github repository'
-        class='cactus-link inline-block'
-        href='https://github.com/chrismwilliams/astro-cactus'
-        rel='noopener noreferrer'
-        target='_blank'>repo</a
-      > if you like me!
+      This site is modified from <a
+        aria-label="astro cactus github repository"
+        class="cactus-link inline-block"
+        href="https://github.com/chrismwilliams/astro-cactus"
+        rel="noopener noreferrer"
+        target="_blank">Astro Cactus</a
+      > template for Astro cause I am lazy, also this is a very cool template. The colorscheme used in
+      this site is from Catppuccin Latte and Catppuccin Mocha pallete.That's it I guess.
+    </p>
+    <p>
+      Like the Astro Cactus template, this project is MIT licensed so you're free to use any content
+      here however you like.
+    </p>
+    <p>
+      The Github repository for this website is available <a
+        aria-label="github repository"
+        class="cactus-link inline-block"
+        href="https://github.com/vorkey/port"
+        rel="noopener noreferrer"
+        target="_blank">here</a
+      >.
     </p>
   </div>
 </PageLayout>

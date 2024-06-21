@@ -8,11 +8,25 @@ const meta = {
 ---
 
 <PageLayout meta={meta}>
-  <div class='space-y-6'>
+  <div class="space-y-6">
+    <h1 class="title">Projects</h1>
     <p>Here are some projects I've created:</p>
-    <ul class='list-inside list-disc'>
-      <li>None</li>
+    <ul class="list-inside list-disc">
+      <li class="mt-4">
+        <a
+          class="cactus-link"
+          href="https://nike-vorkey.vercel.app"
+          rel="noopener noreferer"
+          target="_blank">Nike Slicing</a
+        >
+        <p>
+          Single page site. This is created for learning TailwindCSS. This site also use ReactJS.
+        </p>
+      </li>
+      <li class="mt-4">
+        <a class="cactus-link inline-block" href="https://vorkey.vercel.app">This site</a>
+        <p>Multi page site. This site use Astro, TailwindCSS, and Typescript.</p>
+      </li>
     </ul>
-    <p>Well currently none is worth listing. All of them is nothing I can be proud of.</p>
   </div>
 </PageLayout>

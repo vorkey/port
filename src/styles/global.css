@@ -7,7 +7,6 @@
 	:root[data-theme="light"] {
 		color-scheme: light;
 		/* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-		/* This theme was adapted from Cattpuccin Latte */
 		--theme-bg: 220deg 23% 95%;
 		--theme-link: 197deg 97% 46%;
 		--theme-text: 223deg 10% 47%;
@@ -16,7 +15,6 @@
 		--theme-quote: 347deg 87% 44%;
 	}
 
-	/* This theme was adapted from Cattpuccin Mocha */
 	:root[data-theme="dark"] {
 		color-scheme: dark;
 		--theme-bg: 240deg 21% 15%;
@@ -32,6 +30,6 @@
 	}
 
 	body {
-		@apply mx-auto flex min-h-screen max-w-4xl flex-col bg-bgColor px-8 pt-8 font-serif text-base font-normal text-textColor;
+		@apply mx-auto flex min-h-screen max-w-4xl flex-col bg-bgColor px-4 pt-8 font-mono text-base font-normal text-textColor;
 	}
 }
