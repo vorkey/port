@@ -6,7 +6,7 @@ updatedDate: 22 Jan 2024
 tags: ['test', 'markdown']
 ---
 
-## This is a H2 Heading
+## This is a H2 Headings
 
 ### This is a H3 Heading
 
