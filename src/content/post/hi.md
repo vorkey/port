@@ -42,4 +42,4 @@ Speaking of LinkedIn, I hate how the site has become more of a social media than
 
 ## Bye-bye
 
-That's it. See ya later nonexistent reader :3.
+That's it. See ya later nonexistent reader.

@@ -17,7 +17,7 @@
 
   :root[data-theme='dark'] {
     color-scheme: dark;
-    --theme-bg: 240deg 21% 15%;
+    --theme-bg: 219deg 100% 3%;
     --theme-link: 189deg 71% 73%;
     --theme-text: 228deg 24% 72%;
     --theme-accent: 115deg 54% 76%;
@@ -30,6 +30,6 @@
   }
 
   body {
-    @apply mx-auto flex min-h-screen max-w-4xl flex-col bg-bgColor px-4 pt-8 font-mono text-base font-normal text-textColor;
+    @apply mx-auto flex min-h-screen max-w-4xl flex-col bg-bgColor px-4 pt-8 font-mono text-lg font-normal text-textColor;
   }
 }
