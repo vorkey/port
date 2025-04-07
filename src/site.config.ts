@@ -2,8 +2,10 @@ import type { SiteConfig } from '@/types';
 import type { AstroExpressiveCodeOptions } from 'astro-expressive-code';
 import { ExpressiveCodeTheme } from 'astro-expressive-code';
 import fs from 'node:fs';
+import path from 'node:path';
 
-const jsoncString = fs.readFileSync(new URL(`./dark-theme.jsonc`, import.meta.url), 'utf-8');
+const themePath = path.resolve(process.cwd(), 'public', 'dark-theme.jsonc');
+const jsoncString = fs.readFileSync(themePath, 'utf-8');
 const darkTheme = ExpressiveCodeTheme.fromJSONString(jsoncString);
 
 export const siteConfig: SiteConfig = {
