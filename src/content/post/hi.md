@@ -3,7 +3,6 @@ title: Welcome
 description: "I should've written more here."
 publishDate: 22 June 2024
 tags: ['blog', 'rant']
-draft: false
 ---
 
 ## Hi folks

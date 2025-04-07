@@ -3,7 +3,6 @@ title: 'Uni Assignment 4 digit 7 Segment'
 description: 'Another uni assignment.'
 publishDate: 7 April 2025
 tags: ['uni', 'arduino']
-draft: false
 ---
 
 ## Circuit

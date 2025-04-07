@@ -3,7 +3,6 @@ title: 'Uni Assignment 7 Segment'
 description: "I don't know where else I should post this tbh."
 publishDate: 7 April 2025
 tags: ['uni', 'arduino']
-draft: false
 ---
 
 ## What is this?
