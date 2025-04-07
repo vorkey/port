@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/strictest",
   "compilerOptions": {
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "lib": ["es2022", "dom", "dom.iterable"],
     "paths": {
